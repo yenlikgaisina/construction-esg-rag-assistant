@@ -6,8 +6,35 @@ from ensemble import ensemble_retriever_from_docs
 from full_chain import create_full_chain, ask_question
 from local_loader import load_txt_files
 
-st.set_page_config(page_title="LangChain & Streamlit RAG")
-st.title("LangChain & Streamlit RAG")
+st.set_page_config(
+    page_title="Construction ESG Research Assistant",
+    page_icon="🏗",
+    layout="wide"
+)
+
+st.title("🏗 Construction ESG Research Assistant")
+st.caption(
+    "Ask questions about ESG, circular economy, embodied carbon, overheating risk, "
+    "and sustainability in the built environment."
+)
+
+st.info(
+    "This assistant answers from a curated knowledge base on ESG and sustainable construction. "
+    "It may not know information outside the uploaded sources."
+)
+
+st.markdown("### Try asking:")
+
+example_questions = [
+    "What are the most important ESG topics in construction?",
+    "Explain embodied carbon in simple terms.",
+    "How can UK homes reduce overheating risk?",
+    "What is circular economy in construction?",
+    "What practical steps can a construction company take to improve ESG performance?"
+]
+
+for question in example_questions:
+    st.markdown(f"- {question}")
 
 
 def show_ui(qa, prompt_to_user="How may I help you?"):
@@ -87,8 +114,8 @@ def run():
 
     if ready:
         chain = get_chain(openai_api_key=openai_api_key, huggingfacehub_api_token=huggingfacehub_api_token)
-        st.subheader("Ask me questions about this week's meal plan")
-        show_ui(chain, "What would you like to know?")
+        st.subheader("Ask questions about ESG and sustainable construction")
+        show_ui(chain, "What would you like to know about ESG and sustainable construction?")
     else:
         st.stop()
 
