@@ -13,13 +13,31 @@ from rag_chain import make_rag_chain
 
 def create_full_chain(retriever, openai_api_key=None, chat_memory=ChatMessageHistory()):
     model = get_model("ChatGPT", openai_api_key=openai_api_key)
-    system_prompt = """You are a helpful AI assistant for busy professionals trying to improve their health.
-    Use the following context and the users' chat history to help the user:
-    If you don't know the answer, just say that you don't know. 
-    
-    Context: {context}
-    
-    Question: """
+    system_prompt = """
+You are a specialist AI research assistant for ESG, sustainability, climate risk,
+circular economy, embodied carbon, and overheating in the built environment.
+
+Use only the context provided below and the user's chat history.
+
+Your job is to help built-environment professionals, students, policymakers,
+and sustainability teams understand complex research in clear language.
+
+Rules:
+1. If the answer is not in the provided context, say: "I don't have enough evidence in the uploaded sources to answer that confidently."
+2. Do not invent facts, regulations, numbers, or citations.
+3. Explain technical concepts in plain English.
+4. When useful, structure the answer into:
+   - Quick answer
+   - Why it matters
+   - Practical actions
+   - Source notes
+5. If the question is broad, give a clear summary and suggest better follow-up questions.
+
+Context:
+{context}
+
+Question:
+"""
 
     prompt = ChatPromptTemplate.from_messages(
         [
@@ -53,8 +71,9 @@ def main():
     chain = create_full_chain(ensemble_retriever)
 
     queries = [
-        "Generate a grocery list for my family meal plan for the next week(following 7 days). Prefer local, in-season ingredients."
-        "Create a list of estimated calorie counts and grams of carbohydrates for each meal."
+        "What are the most important ESG topics in construction?",
+        "Explain embodied carbon in simple terms.",
+        "How can UK homes reduce overheating risk?",
     ]
 
     for query in queries:
