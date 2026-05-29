@@ -1,0 +1,65 @@
+# Embodied Carbon in Construction
+
+## Definition
+Embodied carbon refers to the greenhouse gas emissions associated with materials, manufacturing, transport, construction, maintenance, and end-of-life stages of a building or infrastructure asset. It covers everything except the energy used to operate the building once it is in use (which is called operational carbon).
+
+## Why Embodied Carbon Matters
+As the UK grid becomes greener and buildings become more energy efficient, operational carbon is falling. This means embodied carbon now represents a growing proportion of a building's total lifetime carbon footprint. In some highly energy-efficient new buildings, embodied carbon already accounts for more than 50% of lifetime emissions.
+
+Addressing embodied carbon is therefore critical to meeting national and global climate targets. The construction sector cannot achieve net zero without tackling embodied carbon.
+
+## Key Terms
+
+### Upfront Carbon (A1-A5)
+This covers the carbon emitted during material extraction, manufacturing, transport to site, and the construction process itself. Upfront carbon is locked in before a building is even occupied. Reducing upfront carbon is a priority because these emissions cannot be taken back.
+
+### Lifecycle Carbon (A1-C4)
+Whole-life carbon assessment covers the full lifecycle: materials and construction (A1-A5), operational energy (B6), maintenance and replacement of materials (B1-B5), and end-of-life demolition and disposal (C1-C4).
+
+### Biogenic Carbon
+Carbon stored in biological materials such as timber and straw. When these materials are sustainably sourced and used in buildings, they can temporarily store carbon that would otherwise be in the atmosphere.
+
+### Carbon Sequestration
+The process by which carbon is captured from the atmosphere and stored, for example in trees or soil. Timber buildings can store biogenic carbon for the life of the structure.
+
+## High Embodied Carbon Materials
+- Concrete (especially Portland cement) is one of the largest contributors to embodied carbon globally. Cement production alone accounts for approximately 8% of global CO2 emissions.
+- Steel production is also carbon intensive, particularly where virgin steel is produced using blast furnaces powered by coal.
+- Aluminium has a high embodied carbon footprint due to energy-intensive manufacturing processes.
+- Insulation materials vary significantly in embodied carbon, with foam-based products generally higher than mineral wool or natural fibre alternatives.
+
+## Low Embodied Carbon Alternatives
+- Mass timber (cross-laminated timber, glulam): Stores carbon and replaces high-carbon concrete and steel in structural applications.
+- Recycled steel: Using electric arc furnaces with recycled steel can reduce steel's embodied carbon by up to 75% compared to virgin production.
+- Supplementary cementitious materials (SCMs): Replacing Portland cement with ground granulated blast furnace slag (GGBS) or pulverised fuel ash (PFA) reduces concrete's embodied carbon significantly.
+- Hempcrete: A natural composite of hemp fibres and lime used as insulation and non-structural walling.
+- Rammed earth and natural clay materials: Low-processing materials with very low embodied carbon.
+
+## Measuring Embodied Carbon
+Embodied carbon is measured in kilograms of CO2 equivalent (kgCO2e) per unit of material or per square metre of floor area.
+
+The RICS Whole Life Carbon Assessment professional standard provides a methodology for measuring and reporting embodied carbon in buildings. The Carbon Leadership Forum and LETI (London Energy Transformation Initiative) have also published guidance on embodied carbon targets.
+
+## Embodied Carbon Targets
+LETI has proposed embodied carbon targets for new buildings:
+- Residential: upfront carbon below 350 kgCO2e/m2
+- Commercial offices: upfront carbon below 350 kgCO2e/m2
+- These targets are intended to align with a 1.5-degree warming pathway.
+
+## UK Policy Context
+As of 2024, there is no mandatory embodied carbon limit in UK building regulations. However, the Greater London Authority requires whole-life carbon assessments for major planning applications in London. Industry bodies including the UK Green Building Council (UKGBC) and LETI are calling for mandatory reporting and targets to be included in future building regulations.
+
+## Practical Actions for Construction Teams
+1. Carry out a whole-life carbon assessment at design stage and throughout the project.
+2. Prioritise low-carbon structural options such as timber, recycled steel, and low-carbon concrete mixes.
+3. Design for disassembly so materials can be reused rather than demolished.
+4. Procure materials from suppliers who can provide Environmental Product Declarations (EPDs) showing verified embodied carbon data.
+5. Reduce material quantities through efficient structural design.
+6. Reuse existing buildings and structures wherever feasible rather than demolishing and rebuilding.
+
+## Useful Follow-up Questions
+- What is the difference between embodied carbon and operational carbon?
+- How is whole-life carbon assessed in the UK?
+- What is the embodied carbon of concrete and how can it be reduced?
+- What are Environmental Product Declarations and why do they matter?
+- How does mass timber compare to concrete and steel on embodied carbon?
