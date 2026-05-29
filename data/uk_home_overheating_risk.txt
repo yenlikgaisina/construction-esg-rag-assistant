@@ -1,0 +1,105 @@
+# UK Home Overheating Risk
+
+## What is Overheating?
+Overheating occurs when indoor temperatures in a building rise to levels that are uncomfortable and potentially dangerous for occupants. In homes, overheating is a growing risk due to climate change, urban heat island effects, and building design factors.
+
+## Why Overheating Matters in UK Homes
+The UK has historically had a cold climate and UK homes have been designed primarily to retain heat. As average summer temperatures rise and more frequent heatwaves occur, UK homes are increasingly vulnerable to overheating.
+
+The 2003 European heatwave caused approximately 70,000 excess deaths, including around 2,000 in England. The 2022 UK heatwave, when temperatures exceeded 40 degrees Celsius for the first time, caused approximately 3,000 excess deaths in England.
+
+Overheating particularly affects:
+- Older people, especially those over 75
+- Infants and young children
+- People with chronic illness or disabilities
+- People living in flats and upper-floor dwellings
+- People in urban areas (urban heat island effect)
+- People in poorly ventilated homes
+
+## Causes of Overheating in UK Homes
+
+### Climate Change
+Rising average temperatures and more frequent extreme heat events are increasing the risk of overheating across the UK. The UK Climate Change Projections (UKCP18) suggest that summer temperatures could rise by 4 to 6 degrees Celsius by the end of the century under high-emission scenarios.
+
+### Urban Heat Island Effect
+Urban areas retain more heat than rural areas due to dark surfaces, lack of vegetation, and waste heat from buildings, vehicles, and industry. London and other UK cities already experience urban heat island effects of several degrees compared to surrounding rural areas.
+
+### Building Design Factors
+Several design characteristics increase overheating risk in UK homes:
+- Large areas of south or west-facing glazing without shading
+- Poor natural ventilation design
+- Flat roofs with dark surfaces
+- High levels of air tightness without mechanical ventilation and cooling
+- Top-floor flats with limited roof insulation
+- Dense urban developments with limited access to outdoor air movement
+
+### Poor Ventilation
+Many UK homes, particularly those retrofitted to improve energy efficiency, have been sealed to reduce draughts. This improves winter performance but can trap heat in summer if adequate ventilation is not provided.
+
+## UK Policy Context
+
+### Future Homes Standard
+The Future Homes Standard, expected to come into force in 2025, will require new homes to be future-proofed against overheating and to produce 75 to 80% less carbon than homes built under previous regulations.
+
+### Part O of Building Regulations
+Part O was introduced in June 2022 and specifically addresses overheating in new residential buildings in England. It requires developers to:
+1. Limit solar gains through windows (solar gains mitigation)
+2. Ensure adequate provision for free cooling through ventilation (free cooling)
+
+Part O uses a simplified compliance method based on the proportion of glazing area and orientation, or a dynamic thermal modelling approach using CIBSE TM59.
+
+### CIBSE TM59
+TM59 is the Chartered Institution of Building Services Engineers methodology for assessing overheating risk in new homes. It uses dynamic thermal modelling to simulate internal temperatures over a typical meteorological year and criteria for acceptable sleeping conditions.
+
+### London Plan Policy
+The London Plan requires all major residential developments to conduct overheating risk assessments and to demonstrate compliance with CIBSE TM59 methodology.
+
+## Design Strategies to Reduce Overheating
+
+### Passive Cooling
+Passive cooling strategies reduce reliance on mechanical air conditioning and are lower carbon and lower cost to operate:
+- External shading: brise soleil, deep balconies, overhangs, and external blinds reduce solar gains through windows
+- Thermal mass: heavy materials such as concrete and masonry absorb heat during the day and release it at night, moderating temperature swings
+- Night cooling: opening windows at night to flush out accumulated heat, taking advantage of cooler night-time temperatures
+- Green roofs and walls: reduce surface temperatures, improve insulation, and provide evapotranspiration cooling
+- Orientation: designing buildings so principal glazing faces south to maximise winter solar gain while minimising west-facing glass that causes evening overheating
+
+### Natural Ventilation
+Designing homes to allow cross-ventilation and stack ventilation allows heat to be removed without mechanical cooling. This requires:
+- Windows on opposite or adjacent facades that can be opened
+- Internal layout that allows air to flow through the building
+- Openings near the top of rooms to allow hot air to escape
+
+### Vegetation and Landscaping
+Trees, shrubs, and green infrastructure around buildings provide shade, evapotranspiration cooling, and reduce surface temperatures in urban areas.
+
+### Reflective Materials
+Light-coloured or reflective roof and surface materials reduce solar absorption and lower surface temperatures.
+
+### Mechanical Ventilation and Cooling
+Where passive strategies are insufficient, mechanical ventilation with heat recovery (MVHR) or low-energy cooling can be used. Air source heat pumps can provide cooling as well as heating. However, widespread adoption of air conditioning would increase electricity demand and potentially worsen the urban heat island effect.
+
+## Retrofitting Existing Homes for Overheating Risk
+Most UK homes are existing buildings. Retrofitting for overheating resilience includes:
+- Installing external blinds, shutters, or awnings
+- Adding internal thermal mass (e.g. heavy floor tiles, plaster)
+- Improving natural ventilation by adding controllable openings
+- Planting trees and vegetation for shading
+- Replacing flat dark roofs with green roofs or reflective materials
+- Ensuring any retrofit for energy efficiency also addresses summer overheating
+
+## Practical Actions
+
+1. Conduct an overheating risk assessment at the design stage using CIBSE TM59 or simplified compliance for Part O.
+2. Prioritise passive cooling strategies before mechanical solutions.
+3. Design buildings to allow night purge ventilation.
+4. Use external shading to control solar gains, particularly on west-facing glazing.
+5. Include green roofs, green walls, and landscaping as part of urban cooling strategy.
+6. Ensure occupants know how to use ventilation effectively to reduce overheating in hot weather.
+
+## Useful Follow-up Questions
+- What is Part O of the Building Regulations?
+- How does CIBSE TM59 assess overheating risk?
+- What is the urban heat island effect and how does it affect UK cities?
+- What passive design strategies reduce overheating in new homes?
+- How can existing UK homes be retrofitted to reduce overheating risk?
