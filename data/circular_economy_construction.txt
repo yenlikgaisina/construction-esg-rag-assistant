@@ -1,0 +1,85 @@
+# Circular Economy in Construction
+
+## What is the Circular Economy?
+The circular economy is an alternative to the traditional linear economy of take, make, and dispose. In a circular economy, resources are kept in use for as long as possible, materials are recovered and regenerated at the end of each service life, and waste is designed out of the system.
+
+The Ellen MacArthur Foundation defines the circular economy as "an industrial system that is restorative or regenerative by intention and design."
+
+## Why Circular Economy Matters in Construction
+The construction sector is one of the largest consumers of raw materials globally and generates approximately one third of all waste. In the UK, construction, demolition, and excavation waste accounts for around 62% of all waste produced. Adopting circular economy principles in construction can:
+- Significantly reduce waste sent to landfill
+- Reduce demand for virgin raw materials
+- Lower embodied carbon through material reuse
+- Create economic value from materials that would otherwise be wasted
+- Increase supply chain resilience by reducing dependence on imported raw materials
+
+## Key Circular Economy Principles in Construction
+
+### Design for Disassembly
+Buildings designed for disassembly can be deconstructed at end of life, allowing structural elements, cladding, fixtures, and fittings to be recovered and reused. This requires using reversible connections such as bolts rather than welded or bonded joints, and documenting the location and specification of materials using building information modelling (BIM).
+
+### Material Passports
+A material passport is a digital record of all materials used in a building, including their location, specification, condition, and potential for reuse or recycling. Material passports allow future owners and developers to understand the value of materials locked into a building and plan for their recovery.
+
+### Designing Out Waste
+Waste can be designed out at the planning stage by standardising dimensions to match material sheet sizes, using prefabrication to reduce on-site cutting waste, and selecting materials with high recycled content.
+
+### Reuse Over Recycling
+Reuse (using a whole material or component again without processing) is preferable to recycling (reprocessing material into new product) because it requires less energy and retains more of the material's original value. Structural steel, bricks, timber beams, and fixtures can often be reused directly.
+
+### Leasing and Product-as-a-Service Models
+Some circular economy business models involve manufacturers leasing products rather than selling them, retaining responsibility for maintenance, upgrades, and recovery at end of life. Examples include carpet leasing and ceiling tile take-back schemes.
+
+### Regenerative Design
+Beyond reducing negative impacts, regenerative design aims for buildings and developments to actively restore natural systems, for example by improving soil health, supporting biodiversity, and cycling nutrients.
+
+## Circular Economy in Practice: Key Applications
+
+### Structural Steel Reuse
+Structural steel is highly recyclable and increasingly reusable. Some UK projects now incorporate structural steelwork salvaged from demolished buildings. The RIBA and others have published guidance on structural steel reuse and demountable connections.
+
+### Mass Timber
+Cross-laminated timber (CLT) and other engineered timber products are renewable, store carbon, and can be disassembled and reused. Timber structures can also be composted or used as biomass fuel at end of life.
+
+### Concrete
+Concrete is difficult to reuse in its original form but can be crushed and used as recycled aggregate. Research into alkali-activated concretes and concrete using recycled content is advancing. Designing concrete structures for disassembly remains challenging but is increasingly explored.
+
+### Brick Reclamation
+Reclaimed bricks are widely used in UK construction for heritage repairs, extensions, and new-build projects seeking a traditional aesthetic. Reclaimed brick has significantly lower embodied carbon than new brick production.
+
+### Fit-out and Interior Materials
+Office fit-outs generate significant waste when tenants move or change. Circular approaches include using modular, demountable partitioning, leasing furniture and floor coverings, and procuring refurbished furniture and equipment.
+
+## Circular Economy and Serik's Research
+Serik Abzalbek's research on circular economy and construction waste is directly relevant to this field. Key research areas include:
+- Material flow analysis in construction projects
+- Barriers to circular economy adoption by construction firms
+- Policy frameworks to incentivise circular construction
+- Collaboration between clients, contractors, and material suppliers to enable material reuse
+
+## UK Policy and Industry Context
+The UK government's Resources and Waste Strategy (2018) and subsequent plans aim to move towards a more circular economy across sectors including construction. The Construction Leadership Council has published a sector deal and industry commitments on waste reduction. Developers including large housing associations and commercial developers are beginning to adopt circular economy principles in project briefs.
+
+## Challenges to Circular Economy in Construction
+- Lack of demand for reused materials due to uncertainty about structural performance
+- Liability concerns about reusing structural elements without full retesting
+- Inadequate building information and documentation for existing buildings
+- Short time horizons in development finance that do not capture long-term material value
+- Lack of standardisation in material passport formats and data sharing
+- Planning regulations that sometimes require demolition rather than adaptation
+
+## Practical Actions for Construction Companies
+1. Include circular economy requirements in project briefs and procurement specifications.
+2. Conduct pre-demolition audits to identify materials suitable for reuse or salvage.
+3. Require contractors to produce site waste management plans and report on waste diversion rates.
+4. Use Building Information Modelling to record material specifications and support future material passports.
+5. Specify recycled content requirements for concrete, steel, and aggregates.
+6. Design structural connections for demountability where feasible.
+7. Engage with material exchange platforms and building material salvage organisations.
+
+## Useful Follow-up Questions
+- What is a material passport and how is it used in construction?
+- What are the main barriers to circular economy adoption in the UK construction sector?
+- How does designing for disassembly work in practice?
+- What is the difference between reuse and recycling of construction materials?
+- How can construction companies measure their circular economy performance?
