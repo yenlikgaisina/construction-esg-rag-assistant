@@ -1,144 +1,117 @@
-# 🏗 Construction ESG Research Assistant
+# 🏗 BuildLens AI
 
-An AI-powered research assistant for ESG, circular economy, embodied carbon, overheating risk, and sustainability in the built environment.
+**Turn construction ESG documents into source-backed decisions.**
 
-Built with Streamlit, LangChain, OpenAI embeddings, and retrieval-augmented generation.
+BuildLens AI is a retrieval-augmented generation (RAG) assistant for the built
+environment. It helps construction companies, sustainability consultants,
+bid/tender managers, developers, and design teams understand ESG topics,
+analyse sustainability information, and produce ready-to-share documents — all
+grounded in a curated knowledge base.
 
 ---
 
 ## What it does
 
-This app allows users to ask plain-English questions about sustainable construction and receive clear, context-grounded answers from a curated knowledge base.
+- **Ask** plain-English questions about ESG, circular economy, embodied carbon,
+  overheating/climate risk, and construction sustainability, and get answers
+  grounded in the knowledge base.
+- **Generate** ready-to-share drafts: executive summaries, ESG gap analyses,
+  board briefings, tender checklists, action plans, LinkedIn posts, client
+  emails, and presentation outlines.
+- **Download** any generated document as a clean Markdown report.
 
-**Example questions:**
-- What are the most important ESG topics in construction?
-- What is embodied carbon?
-- How can UK homes reduce overheating risk?
-- What does circular economy mean in construction?
-- What practical actions can construction firms take to improve ESG performance?
-
----
-
-## Why I built it
-
-Construction professionals are under pressure to understand ESG, climate risk, carbon reduction, overheating, and circular economy principles. Important information is often spread across long reports and technical documents.
-
-This project shows how retrieval-augmented generation can make specialist knowledge easier to access and understand, especially for professionals who need fast, practical answers.
+All answers are drawn from a fixed, curated knowledge base so responses stay
+focused and predictable. Generated content is always labelled as an AI draft
+that should be reviewed before sharing.
 
 ---
 
-## Tech stack
+## How it works
 
-- **Python** — core language
-- **Streamlit** — web app interface and chat UI
-- **LangChain** — orchestration of retrieval and generation
-- **OpenAI embeddings** — text-embedding-3-small for semantic search
-- **BM25 retrieval** — keyword-based search
-- **Ensemble retriever** — combines BM25 and vector search with equal weights
-- **ChromaDB / vector store** — stores document embeddings
+BuildLens AI is built on the LangChain + Streamlit RAG pattern:
 
----
-
-## Responsible AI features
-
-- Answers are grounded in a curated knowledge base on ESG and construction
-- The assistant is explicitly instructed not to invent facts, regulations, numbers, or citations
-- The app explains when there is not enough evidence to answer confidently
-- Users are informed the app answers from a limited curated knowledge base
-- Future version will add source-level citations and answer quality evaluation
-
----
-
-## Knowledge base
-
-The app is powered by 5 curated knowledge files covering:
-
-| File | Topic |
-|------|-------|
-| `esg_construction_topics.txt` | Overview of ESG themes: environmental, social, governance |
-| `embodied_carbon_basics.txt` | What embodied carbon is, how to measure and reduce it |
-| `uk_home_overheating_risk.txt` | Causes, risks, design strategies, and UK policy context |
-| `circular_economy_construction.txt` | Circular economy principles, material passports, design for disassembly |
-| `practical_recommendations.txt` | Actionable ESG steps for construction companies |
-
-All content is original analysis and summary based on publicly available knowledge. No copyrighted reports are included.
+1. **Knowledge base** — plain-text source files in `data/` covering ESG topics,
+   circular economy, embodied carbon, UK home overheating risk, and practical
+   recommendations. These are original summaries and analysis, not copyrighted
+   reports.
+2. **Retrieval** — `local_loader.py` loads the text files and `ensemble.py`
+   builds an ensemble retriever (semantic + keyword) over them.
+3. **Embeddings** — OpenAI `text-embedding-3-small`.
+4. **Answer chain** — `full_chain.py` wraps the retriever in a RAG chain with an
+   ESG-specialist system prompt that keeps answers grounded in retrieved
+   sources.
+5. **Generation prompts** — `prompts.py` defines the document templates used by
+   the **Generate** tab.
+6. **Reports** — `utils/report_generator.py` wraps generated text in a tidy
+   Markdown report for download.
+7. **UI** — `streamlit_app.py` provides a tabbed interface (Ask / Generate /
+   Download) plus a short homepage overview.
 
 ---
 
-## Architecture
+## Project structure
 
 ```
-User question
-     ↓
-Streamlit chat interface
-     ↓
-Ensemble Retriever
-     ↓
-BM25 keyword search + vector similarity search (equal weights)
-     ↓
-Relevant document chunks from knowledge base
-     ↓
-LLM (GPT) with ESG specialist system prompt
-     ↓
-Grounded plain-English answer
-     ↓
-User
+streamlit_app.py          Main Streamlit app (UI + tabs)
+full_chain.py             RAG chain and ESG system prompt
+ensemble.py               Ensemble retriever setup
+local_loader.py           Loads the text knowledge base
+prompts.py                Document-generation prompt templates
+utils/
+  __init__.py
+  report_generator.py     Builds the downloadable Markdown report
+data/                     Curated ESG knowledge base (.txt)
 ```
 
 ---
 
-## How to run locally
+## Running locally
+
+You will need an OpenAI API key and a Hugging Face Hub token.
 
 ```bash
-git clone https://github.com/yenlikgaisina/construction-esg-rag-assistant.git
-cd construction-esg-rag-assistant
+# 1. Create and activate a virtual environment
+python -m venv .venv
+source .venv/bin/activate        # macOS/Linux
+# .venv\\Scripts\\activate         # Windows
 
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -U pip
+# 2. Install dependencies
 pip install -r requirements.txt
 
+# 3. Provide your keys (either as env vars or in .streamlit/secrets.toml)
+export OPENAI_API_KEY="sk-..."
+export HUGGINGFACEHUB_API_TOKEN="hf_..."
+
+# 4. Run the app
 streamlit run streamlit_app.py
 ```
 
-You will need:
-- An **OpenAI API key** — enter it in the sidebar when the app loads
-- A **HuggingFace Hub API token** — enter it in the sidebar when the app loads
-
-Or set them in `.streamlit/secrets.toml`:
-
-```toml
-OPENAI_API_KEY = "your-key"
-HUGGINGFACEHUB_API_TOKEN = "your-token"
-```
+You can also paste the keys into the sidebar when the app starts.
 
 ---
 
-## Deployment
+## Roadmap
 
-This app is designed to be deployed on **Streamlit Community Cloud**:
+Version 1 (this repo) uses a **fixed knowledge base**. Planned next steps,
+best built and tested locally:
 
-1. Push your fork to GitHub
-2. Go to [share.streamlit.io](https://share.streamlit.io)
-3. Click **New app** and select this repository
-4. Set main file path to `streamlit_app.py`
-5. Add secrets in the Streamlit Cloud dashboard
-
----
-
-## Future improvements
-
-- [ ] Add PDF upload so users can ask questions over their own documents
-- [ ] Add source citations in answers (show which file each answer came from)
-- [ ] Add answer quality evaluation and hallucination detection
-- [ ] Add ESG topic filters for more focused search
-- [ ] Add downloadable answer summaries
-- [ ] Expand the knowledge base with more ESG construction topics
+- Document upload (PDF / TXT / DOCX / CSV) with a document-type selector.
+- An ESG scorecard across embodied carbon, circular economy, energy efficiency,
+  climate resilience, social value, and supply chain transparency.
+- Confidence labels (High / Medium / Low evidence) on answers.
+- Project comparison and a richer dashboard snapshot.
 
 ---
 
-## About
+## A note on sources and accuracy
 
-Built by [Yenlik Gaisina](https://github.com/yenlikgaisina) as part of a portfolio of AI and data projects focused on ESG, sustainability, and the built environment.
+The knowledge base is made of original summaries and analysis intended for
+demonstration. BuildLens AI produces **AI-generated drafts**. Always review
+output for accuracy before using it in tenders, board papers, or client work.
 
-Forked from [streamlit/example-app-langchain-rag](https://github.com/streamlit/example-app-langchain-rag) and significantly customised.
+---
+
+## Credits
+
+Adapted from the `streamlit/example-app-langchain-rag` template and customised
+for construction ESG use cases. Licensed under Apache-2.0.
