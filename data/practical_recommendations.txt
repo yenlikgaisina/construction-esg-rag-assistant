@@ -1,0 +1,145 @@
+# Practical ESG Recommendations for Construction Companies
+
+## Overview
+This guide provides practical, actionable steps that construction companies can take to improve their ESG performance. It is organised by environmental, social, and governance themes and includes both quick wins and longer-term strategic actions.
+
+## Environmental Actions
+
+### Carbon and Energy
+
+**Quick wins (0-6 months)**
+- Measure your scope 1 and scope 2 carbon emissions using the UK government's conversion factors or a recognised carbon accounting tool.
+- Switch company vehicles and site plant to lower-emission alternatives where feasible.
+- Ensure site offices and welfare facilities use energy-efficient heating and LED lighting.
+- Purchase renewable electricity tariffs for office and site operations.
+
+**Medium-term actions (6-18 months)**
+- Commission a whole-life carbon assessment for all major projects using RICS Whole Life Carbon Assessment methodology.
+- Set a carbon reduction target aligned with the Science Based Targets initiative (SBTi) and publish it publicly.
+- Engage the top 10 supply chain suppliers on embodied carbon data and reduction plans.
+- Introduce low-carbon concrete specifications for all new projects, including minimum recycled content requirements.
+
+**Longer-term strategic actions**
+- Commit to net zero by 2050 or earlier with a credible transition plan.
+- Invest in low-carbon plant and machinery as fleet is renewed.
+- Develop a supply chain engagement programme to support suppliers in measuring and reducing their own carbon footprint.
+- Explore timber-first structural design policies for suitable project types.
+
+### Waste and Circular Economy
+
+**Quick wins**
+- Implement site waste management plans for all projects and track waste diversion rates.
+- Conduct pre-demolition audits before any demolition work to identify materials for reuse or salvage.
+- Set a minimum target for waste diversion from landfill (e.g. 95% diversion rate).
+- Use standardised material dimensions in design to reduce cutting waste on site.
+
+**Medium-term actions**
+- Adopt a circular economy procurement policy that requires suppliers to provide take-back schemes for packaging and materials.
+- Pilot the use of material passports on one or two projects to document materials for future reuse.
+- Engage with regional material exchange platforms and building salvage organisations.
+
+**Longer-term strategic actions**
+- Embed circular economy requirements into project briefs, contracts, and design guides.
+- Work with clients to design buildings for disassembly, including demountable structural connections.
+- Develop a company-wide circular economy strategy with measurable targets and annual reporting.
+
+### Biodiversity
+
+- Require biodiversity net gain assessments for all relevant planning applications.
+- Adopt a no-net-loss minimum standard and aim for net gain on all sites.
+- Work with ecologists and landscape architects to design sites that enhance local habitats.
+- Protect existing trees, hedgerows, and green infrastructure during construction.
+
+### Water
+
+- Monitor and report water consumption on construction sites.
+- Install water-efficient fixtures in all new buildings as standard.
+- Design new developments to incorporate rainwater harvesting, permeable surfaces, and sustainable urban drainage systems (SuDS).
+
+## Social Actions
+
+### Health and Safety
+
+**Quick wins**
+- Review and update the health and safety management system annually.
+- Ensure all site workers complete appropriate induction training and hold relevant qualifications.
+- Report all accidents, near misses, and dangerous occurrences and investigate root causes.
+- Conduct regular site safety walks and toolbox talks.
+
+**Medium-term actions**
+- Implement a mental health and wellbeing programme for site and office workers.
+- Set targets to reduce accident frequency rates year on year.
+- Engage with the supply chain on health and safety standards and conduct supply chain audits.
+
+### Workforce and Diversity
+
+- Collect and publish workforce diversity data including gender, ethnicity, and disability.
+- Set diversity and inclusion targets with senior accountability.
+- Offer apprenticeships and graduate programmes to support new entrants from diverse backgrounds.
+- Review pay gap data and publish gender pay gap reports if required.
+- Create a clear pathway for workers from under-represented groups to progress into leadership roles.
+
+### Social Value and Community
+
+- Develop a social value strategy aligned with the Social Value Act 2012 and relevant procurement requirements.
+- Measure social value outcomes using a recognised framework such as the National TOMs (Themes, Outcomes, and Measures).
+- Engage local communities before and during construction projects to minimise disruption and address concerns.
+- Support local supply chains and subcontractors, setting targets for local spend.
+- Contribute to affordable housing delivery and community infrastructure.
+
+### Modern Slavery and Supply Chain Ethics
+
+- Publish an annual Modern Slavery Act statement as required by law for companies with turnover above 36 million pounds.
+- Conduct supply chain due diligence to identify and address modern slavery risks.
+- Include ethical trading and human rights requirements in supplier contracts and codes of conduct.
+
+## Governance Actions
+
+### Reporting and Transparency
+
+- Publish an annual ESG or sustainability report aligned with GRI, TCFD, or SASB standards.
+- Seek third-party assurance for key ESG metrics to increase credibility with investors and clients.
+- Set clear board-level accountability for ESG performance.
+- Link executive remuneration to ESG targets.
+
+### ESG Strategy and Targets
+
+- Develop a written ESG strategy with specific, measurable, achievable, relevant, and time-bound targets.
+- Conduct a materiality assessment to identify the ESG issues most relevant to your business and stakeholders.
+- Review ESG strategy annually and update targets in line with regulatory changes and stakeholder expectations.
+
+### Client and Investor Engagement
+
+- Respond to client ESG questionnaires, tender requirements, and sustainability pre-qualification questions.
+- Engage with investor ESG ratings agencies and respond to ESG questionnaires from major shareholders.
+- Proactively communicate ESG performance improvements to clients, investors, and lenders.
+
+## Measuring ESG Performance
+Key metrics to track and report:
+
+Environmental:
+- Total carbon emissions (scope 1, 2, 3) in tonnes CO2e
+- Carbon intensity per million pounds of revenue or per square metre of floor area
+- Percentage of waste diverted from landfill
+- Total water consumption on sites
+- Biodiversity net gain outcomes on projects
+
+Social:
+- Accident frequency rate and RIDDOR reportable incidents
+- Employee engagement score
+- Percentage of women and minority ethnic staff in the workforce and in leadership
+- Training hours per employee
+- Number of apprenticeships and new entrants supported
+- Social value delivered (in pounds, using HACT or National TOMs methodology)
+
+Governance:
+- Percentage of board members with ESG responsibilities
+- Number of ESG-linked KPIs in executive remuneration
+- Third-party ESG rating or accreditation held
+
+## Useful Follow-up Questions
+- What ESG reporting frameworks are most relevant for UK construction companies?
+- How do construction companies measure social value?
+- What is the Science Based Targets initiative and how does a construction company join?
+- What is required by the Modern Slavery Act for construction companies?
+- How can construction companies improve their supply chain ESG performance?
