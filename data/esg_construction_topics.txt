@@ -1,0 +1,71 @@
+# ESG Topics in Construction
+
+## Overview
+ESG stands for Environmental, Social, and Governance. In the construction and built environment sector, ESG has become a central framework for measuring how responsibly companies operate and how their projects impact people and the planet.
+
+## Environmental Topics
+
+### Carbon Emissions and Climate Change
+Construction is responsible for approximately 38% of global carbon dioxide emissions when combining operational energy use and embodied carbon. Reducing emissions requires action across the full lifecycle of a building, from design and material selection through construction, operation, and eventual demolition.
+
+### Embodied Carbon
+Embodied carbon refers to the greenhouse gas emissions associated with the materials and construction processes throughout the lifecycle of a building, excluding operational energy use. This includes extraction of raw materials, manufacturing, transport, installation, maintenance, and end-of-life disposal or recycling.
+
+### Biodiversity and Land Use
+Construction projects can disrupt local ecosystems, habitats, and wildlife corridors. Best practice includes conducting biodiversity net gain assessments and designing sites to enhance rather than deplete local biodiversity.
+
+### Water Use and Management
+Construction sites are significant users of water during building processes. Sustainable water management includes rainwater harvesting, greywater recycling, and designing buildings that reduce water consumption over their operational life.
+
+### Waste and Circular Economy
+The construction sector generates approximately one third of all waste in the UK. Circular economy principles encourage designing for disassembly, reusing materials, and reducing waste sent to landfill.
+
+### Energy Efficiency in Operation
+Buildings account for a large proportion of energy use globally. Improving the thermal performance of buildings through insulation, double glazing, and efficient heating and cooling systems reduces both energy bills and carbon emissions.
+
+## Social Topics
+
+### Health and Safety
+Construction has historically had high rates of workplace accidents and fatalities. Strong ESG performance includes robust health and safety management systems, training, and a culture that prioritises worker wellbeing.
+
+### Worker Wellbeing and Fair Pay
+Social ESG metrics include ensuring workers receive fair wages, access to wellbeing support, and safe working conditions. This extends across supply chains to subcontractors and suppliers.
+
+### Community Impact and Affordable Housing
+Construction companies operate within communities. Good ESG practice involves consulting local residents, minimising noise and disruption, contributing to community infrastructure, and supporting affordable housing delivery.
+
+### Diversity and Inclusion
+The construction sector has historically lacked diversity, particularly for women and minority ethnic groups in senior roles and on construction sites. ESG frameworks encourage setting diversity targets and creating inclusive workplaces.
+
+### Modern Slavery and Supply Chain Ethics
+Large construction projects involve complex international supply chains. ESG due diligence requires checking that materials are not sourced from suppliers using forced or child labour.
+
+## Governance Topics
+
+### Board Accountability and Transparency
+Good governance means that construction companies have clear board-level accountability for ESG performance, transparent reporting, and executive remuneration linked to sustainability targets.
+
+### ESG Reporting Standards
+The most common frameworks used in construction include the Global Reporting Initiative (GRI), Task Force on Climate-related Financial Disclosures (TCFD), Sustainability Accounting Standards Board (SASB), and the UN Sustainable Development Goals (SDGs).
+
+### Green Finance and ESG-linked Investment
+Investors and lenders increasingly require ESG performance data before providing finance. Green bonds, sustainability-linked loans, and ESG-rated investment funds are growing in importance for construction companies.
+
+### Planning and Regulation
+UK construction is subject to building regulations, planning requirements, and increasingly to mandatory climate disclosure. The Future Homes Standard and changes to Part L of the Building Regulations aim to raise the energy performance of new homes.
+
+## Practical Actions for Construction Companies
+
+1. Measure and report scope 1, 2, and 3 carbon emissions annually.
+2. Set a Science Based Target for carbon reduction aligned with a 1.5 degree pathway.
+3. Conduct whole-life carbon assessments for major projects.
+4. Adopt a social value framework and measure community and social impact.
+5. Publish an annual ESG report aligned with GRI or TCFD standards.
+6. Engage the supply chain on sustainability requirements and expectations.
+7. Monitor and improve biodiversity net gain on construction sites.
+
+## Useful Follow-up Questions
+- What is the difference between operational and embodied carbon?
+- What is biodiversity net gain in construction?
+- How do construction companies set and report on carbon targets?
+- What is the Future Homes Standard?
